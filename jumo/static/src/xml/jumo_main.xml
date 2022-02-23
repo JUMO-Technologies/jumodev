@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <!--
+        @param {jumo/static/src/jumo.js} widget
+    -->
+    <t t-name="jumo.widgets.JumoMainPage">
+    <div id="jumo-wrapper">
+        <div id="jumo-chatter"></div>
+    </div>
+    </t>
+</templates>

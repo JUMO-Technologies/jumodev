@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <template id="index" name="jumo index">&lt;!DOCTYPE html&gt;
+        <html>
+                <head>
+                <title>Custom Jumo Page</title>
+
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+                <meta http-equiv="content-type" content="text/html, charset=utf-8" />
+
+                <meta name="viewport" content=" width=1024, user-scalable=no"/>
+                <meta name="apple-mobile-web-app-capable" content="yes"/>
+                <meta name="mobile-web-app-capable" content="yes"/>
+
+                <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon"/>                
+
+                <script type="text/javascript" id="loading-script" t-raw="init">
+                    var odoo = {
+                        csrf_token: "<t t-esc="request.csrf_token(None)"/>",
+                        session_info: <t t-raw="session_info"/>,
+                    };
+                </script>
+                <t t-out="head or ''"/>
+            </head>
+            <body>
+                <h1>Hello blyat 2</h1>
+                <div class="o_main_content" id="jumo-example"/>
+                <t t-out="body or ''"/>
+            </body>
+
+        </html>
+        </template>
+    </data>
+</odoo>

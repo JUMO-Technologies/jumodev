@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <record id="action_jumo" model="ir.actions.client">
+            <field name="name">Jumo Main</field>
+            <field name="tag">jumo.widgets.main</field>
+        </record>
+
+        <record id="view_partners_form_jumo" model="ir.ui.view">
+            <field name="name">res_partner.view.form.jumo</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field eval="1" name="priority"/>
+            <field name="arch" type="xml">
+                <data>
+                    <div name="button_box" position="inside">
+                        <button class="oe_stat_button" type="object"
+                            name="show_calls"
+                            icon="fa-phone"
+                            context="{'partner_id': active_id, 'partner_name': name}">
+                            <div class="o_stat_info">
+                                <span class="o_stat_text">Show<br/>Calls</span>
+                            </div>
+                        </button>
+                    </div>
+                </data>
+            </field>
+        </record>
+
+        <menuitem name="Jumo Page"
+            id="jumo.menu_root_jumo"
+            action="action_jumo"
+            web_icon="jumo,static/icon.png"
+            groups="base.group_user"
+            sequence="5"
+        />
+    </data>
+</odoo>
