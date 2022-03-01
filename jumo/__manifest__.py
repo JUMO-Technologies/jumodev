@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "jumo",
+    'name': "Jumo",
 
-    'depends': ['base'],
+    'depends': ['base', 'crm', 'base_setup'],
     'installable': True,
     'application': True,
     'data': [
         'views/views.xml',
-        'views/templates.xml'
+        'views/templates.xml',
+        'views/settings.xml'
     ],
     'assets': {
         'web.assets_backend': [

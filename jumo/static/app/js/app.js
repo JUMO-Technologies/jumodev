@@ -519,12 +519,12 @@ var ProfileSection_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var ProfileSection = (ProfileSection_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"534d8b62-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/NewsFeed.vue?vue&type=template&id=60cc3361&scoped=true&
-var NewsFeedvue_type_template_id_60cc3361_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"newsfeed"},[_c('h1',{staticClass:"newsfeed__title"},[_vm._v("Historico de llamadas")]),_c('div',{staticClass:"cards"},[(_vm.selectedCall)?_c('NewsFeedCard',{staticClass:"cards__item",scopedSlots:_vm._u([{key:"card-header",fn:function(){return [_c('span',{staticClass:"card__title"},[_vm._v("Última llamada")]),_c('div',{staticClass:"card-header__right"},[_vm._v(_vm._s(_vm.selectedCall.start_time))])]},proxy:true},{key:"card-main",fn:function(){return [_c('div',{staticClass:"card-content__contact"},[_c('div',{staticClass:"info-group"},[_c('span',{staticClass:"label"},[_vm._v("Email")]),_c('span',{staticClass:"text"},[_vm._v(_vm._s(_vm.partner.email))])])]),_c('div',{staticClass:"card-content__table table"},[_c('div',{staticClass:"table__thead"},[_c('div',{staticClass:"table__th table__th_1"},[_vm._v("Al número")]),_c('div',{staticClass:"table__th table__th_2"},[_vm._v("Último estado")]),_c('div',{staticClass:"table__th table__th_3"},[_vm._v("Hora de comienzo")]),_c('div',{staticClass:"table__th table__th_4"},[_vm._v("Hora de finalización")]),_c('div',{staticClass:"table__th table__th_5"},[_vm._v("Duración total")])]),_c('div',{staticClass:"table__tbody"},[_c('div',{staticClass:"table__row"},[_c('div',{staticClass:"table__td table__td_1"},[_vm._v(_vm._s(_vm.selectedCall.to_number))]),_c('div',{staticClass:"table__td table__td_2"},[_vm._v(_vm._s(_vm.selectedCall.last_state))]),_c('div',{staticClass:"table__td table__td_3"},[_vm._v(_vm._s(_vm.selectedCall.start_time))]),_c('div',{staticClass:"table__td table__td_4"},[_vm._v(_vm._s(_vm.selectedCall.end_time))]),_c('div',{staticClass:"table__td table__td_5"},[_vm._v(_vm._s(_vm.selectedCall.total_duration))])])])]),(_vm.selectedCall.record)?_c('div',{staticClass:"card-content__audio"},[_c('CustomAudioPlayer',{attrs:{"record":_vm.selectedCall.record,"duration":_vm.selectedCall.incall_duration}})],1):_vm._e()]},proxy:true}],null,false,21289686)}):_vm._e(),_c('NewsFeedCard',{staticClass:"cards__item",scopedSlots:_vm._u([{key:"card-header",fn:function(){return [_c('span',{staticClass:"card__title"},[_vm._v("Historico de llamadas con cliente")])]},proxy:true},{key:"card-main",fn:function(){return [_c('div',{staticClass:"card-content__table table"},[_c('div',{staticClass:"table__tbody"},_vm._l((_vm.calls),function(call){return _c('div',{key:call.call_id + call.cdr_id,staticClass:"table__row",class:{ 'table__row_selected': call === _vm.selectedCall },on:{"click":function($event){_vm.selectedCall = call}}},[_c('div',{staticClass:"table__td table__td_2"},[_vm._v(_vm._s(call.last_state))]),_c('div',{staticClass:"table__td table__td_3"},[_vm._v(_vm._s(call.start_time))]),_c('div',{staticClass:"table__td table__td_4"},[_vm._v(_vm._s(call.end_time))]),_c('div',{staticClass:"table__td table__td_5"},[_vm._v(_vm._s(call.total_duration))])])}),0)])]},proxy:true}])})],1)])}
-var NewsFeedvue_type_template_id_60cc3361_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"534d8b62-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/NewsFeed.vue?vue&type=template&id=ee0cc3ca&scoped=true&
+var NewsFeedvue_type_template_id_ee0cc3ca_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"newsfeed"},[_c('h1',{staticClass:"newsfeed__title"},[_vm._v("Historico de llamadas")]),_c('div',{staticClass:"cards"},[(_vm.selectedCall)?_c('NewsFeedCard',{staticClass:"cards__item",scopedSlots:_vm._u([{key:"card-header",fn:function(){return [_c('span',{staticClass:"card__title"},[_vm._v("Última llamada")]),_c('div',{staticClass:"card-header__right"},[_vm._v(_vm._s(_vm.selectedCall.start_time))])]},proxy:true},{key:"card-main",fn:function(){return [_c('div',{staticClass:"card-content__contact"},[_c('div',{staticClass:"info-group"},[_c('span',{staticClass:"label"},[_vm._v("Email")]),_c('span',{staticClass:"text"},[_vm._v(_vm._s(_vm.partner.email))])])]),_c('div',{staticClass:"card-content__table table"},[_c('div',{staticClass:"table__thead"},[_c('div',{staticClass:"table__th table__th_1"},[_vm._v("Al número")]),_c('div',{staticClass:"table__th table__th_2"},[_vm._v("Último estado")]),_c('div',{staticClass:"table__th table__th_3"},[_vm._v("Hora de comienzo")]),_c('div',{staticClass:"table__th table__th_4"},[_vm._v("Hora de finalización")]),_c('div',{staticClass:"table__th table__th_5"},[_vm._v("Duración total")])]),_c('div',{staticClass:"table__tbody"},[_c('div',{staticClass:"table__row"},[_c('div',{staticClass:"table__td table__td_1"},[_vm._v(_vm._s(_vm.selectedCall.to_number))]),_c('div',{staticClass:"table__td table__td_2"},[_vm._v(_vm._s(_vm.selectedCall.last_state))]),_c('div',{staticClass:"table__td table__td_3"},[_vm._v(_vm._s(_vm.selectedCall.start_time))]),_c('div',{staticClass:"table__td table__td_4"},[_vm._v(_vm._s(_vm.selectedCall.end_time))]),_c('div',{staticClass:"table__td table__td_5"},[_vm._v(_vm._s(_vm.selectedCall.total_duration))])])])]),(_vm.selectedCall.record)?_c('div',{staticClass:"card-content__audio"},[_c('CustomAudioPlayer',{attrs:{"record":_vm.selectedCall.record,"duration":_vm.selectedCall.incall_duration}})],1):_vm._e()]},proxy:true}],null,false,21289686)}):_vm._e(),_c('NewsFeedCard',{staticClass:"cards__item",scopedSlots:_vm._u([{key:"card-header",fn:function(){return [_c('span',{staticClass:"card__title"},[_vm._v("Historico de llamadas con cliente")])]},proxy:true},{key:"card-main",fn:function(){return [_c('div',{staticClass:"card-content__table table"},[(!_vm.missingConfig)?_c('div',{staticClass:"table__tbody"},_vm._l((_vm.calls),function(call){return _c('div',{key:call.call_id + call.cdr_id,staticClass:"table__row",class:{ 'table__row_selected': call === _vm.selectedCall },on:{"click":function($event){_vm.selectedCall = call}}},[_c('div',{staticClass:"table__td table__td_2"},[_vm._v(_vm._s(call.last_state))]),_c('div',{staticClass:"table__td table__td_3"},[_vm._v(_vm._s(call.start_time))]),_c('div',{staticClass:"table__td table__td_4"},[_vm._v(_vm._s(call.end_time))]),_c('div',{staticClass:"table__td table__td_5"},[_vm._v(_vm._s(call.total_duration))])])}),0):_c('div',{},[_c('h3',[_vm._v("Please provide Ringover API token in the general settings page")])])])]},proxy:true}])})],1)])}
+var NewsFeedvue_type_template_id_ee0cc3ca_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/NewsFeed.vue?vue&type=template&id=60cc3361&scoped=true&
+// CONCATENATED MODULE: ./src/components/NewsFeed.vue?vue&type=template&id=ee0cc3ca&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"534d8b62-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/NewsFeedCard.vue?vue&type=template&id=1af5fb64&scoped=true&
 var NewsFeedCardvue_type_template_id_1af5fb64_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card"},[_c('header',{staticClass:"card-header"},[_vm._t("card-header")],2),_c('main',{staticClass:"card-content"},[_vm._t("card-main")],2)])}
@@ -830,6 +830,9 @@ var CustomAudioPlayer_component = Object(componentNormalizer["a" /* default */])
 //
 //
 //
+//
+//
+//
 
 
 
@@ -847,6 +850,9 @@ var CustomAudioPlayer_component = Object(componentNormalizer["a" /* default */])
   computed: Object(objectSpread2["a" /* default */])(Object(objectSpread2["a" /* default */])({}, Object(vuex_esm["b" /* mapState */])({
     calls: function calls(state) {
       return state.ringover.calls;
+    },
+    missingConfig: function missingConfig(state) {
+      return state.ringover.missingConfig;
     },
     partner: function partner(state) {
       return state.partner;
@@ -870,8 +876,8 @@ var CustomAudioPlayer_component = Object(componentNormalizer["a" /* default */])
 });
 // CONCATENATED MODULE: ./src/components/NewsFeed.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_NewsFeedvue_type_script_lang_js_ = (NewsFeedvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/NewsFeed.vue?vue&type=style&index=0&id=60cc3361&lang=scss&scoped=true&
-var NewsFeedvue_type_style_index_0_id_60cc3361_lang_scss_scoped_true_ = __webpack_require__("d9c9");
+// EXTERNAL MODULE: ./src/components/NewsFeed.vue?vue&type=style&index=0&id=ee0cc3ca&lang=scss&scoped=true&
+var NewsFeedvue_type_style_index_0_id_ee0cc3ca_lang_scss_scoped_true_ = __webpack_require__("9d7b");
 
 // CONCATENATED MODULE: ./src/components/NewsFeed.vue
 
@@ -884,11 +890,11 @@ var NewsFeedvue_type_style_index_0_id_60cc3361_lang_scss_scoped_true_ = __webpac
 
 var NewsFeed_component = Object(componentNormalizer["a" /* default */])(
   components_NewsFeedvue_type_script_lang_js_,
-  NewsFeedvue_type_template_id_60cc3361_scoped_true_render,
-  NewsFeedvue_type_template_id_60cc3361_scoped_true_staticRenderFns,
+  NewsFeedvue_type_template_id_ee0cc3ca_scoped_true_render,
+  NewsFeedvue_type_template_id_ee0cc3ca_scoped_true_staticRenderFns,
   false,
   null,
-  "60cc3361",
+  "ee0cc3ca",
   null
   
 )
@@ -1173,53 +1179,126 @@ var es_array_filter = __webpack_require__("4de4");
 
 
 
-var API_TOKEN = 'fabdc3bf687c752f01edff13c723660274c4fd09';
+
+
 /* harmony default export */ var ringover = ({
   namespaced: true,
   state: {
-    calls: []
+    token: '',
+    endpoint: '',
+    calls: [],
+    missingConfig: false
   },
   mutations: {
     setCalls: function setCalls(state, calls) {
       state.calls = calls;
+    },
+    setConfig: function setConfig(state, _ref) {
+      var token = _ref.token,
+          endpoint = _ref.endpoint;
+      state.endpoint = endpoint.replace(/\/$/, '');
+      state.token = token;
+
+      if (!token) {
+        state.missingConfig = true;
+      }
     }
   },
   actions: {
-    getCalls: function getCalls(_ref, _ref2) {
+    getConfig: function getConfig(_ref2) {
       return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-        var commit, phoneNumber, response, result;
+        var commit, dispatch, response, config;
         return regeneratorRuntime.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                commit = _ref.commit;
-                phoneNumber = _ref2.phoneNumber;
-                _context.next = 4;
-                return fetch('https://public-api.ringover.com/v2/calls', {
-                  method: 'GET',
-                  headers: {
-                    'Authorization': API_TOKEN
-                  },
-                  redirect: 'follow'
+                commit = _ref2.commit, dispatch = _ref2.dispatch;
+                _context.next = 3;
+                return dispatch('rpc', {
+                  endpoint: '/web/dataset/call_kw/res.config.settings/search_read',
+                  params: {
+                    "args": [],
+                    "model": "res.config.settings",
+                    "method": "search_read",
+                    "kwargs": {
+                      "domain": [],
+                      "fields": ["id", "jumo_ringover_token", "jumo_ringover_endpoint"],
+                      "order": "id DESC"
+                    }
+                  }
+                }, {
+                  root: true
                 });
 
-              case 4:
+              case 3:
                 response = _context.sent;
-                _context.next = 7;
-                return response.json();
+                config = response.result[0];
+                commit('setConfig', {
+                  token: config.jumo_ringover_token,
+                  endpoint: config.jumo_ringover_endpoint
+                });
 
-              case 7:
-                result = _context.sent;
-                commit('setCalls', result.call_list.filter(function (item) {
-                  return item.contact_number == phoneNumber;
-                }));
-
-              case 9:
+              case 6:
               case "end":
                 return _context.stop();
             }
           }
         }, _callee);
+      }))();
+    },
+    getCalls: function getCalls(_ref3, _ref4) {
+      return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+        var state, commit, dispatch, phoneNumber, response, result;
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                state = _ref3.state, commit = _ref3.commit, dispatch = _ref3.dispatch;
+                phoneNumber = _ref4.phoneNumber;
+
+                if (!(!state.token && !state.missingConfig)) {
+                  _context2.next = 5;
+                  break;
+                }
+
+                _context2.next = 5;
+                return dispatch('getConfig');
+
+              case 5:
+                if (state.token) {
+                  _context2.next = 7;
+                  break;
+                }
+
+                return _context2.abrupt("return");
+
+              case 7:
+                _context2.next = 9;
+                return fetch(state.endpoint + '/v2/calls', {
+                  method: 'GET',
+                  headers: {
+                    'Authorization': state.token
+                  },
+                  redirect: 'follow'
+                });
+
+              case 9:
+                response = _context2.sent;
+                _context2.next = 12;
+                return response.json();
+
+              case 12:
+                result = _context2.sent;
+                commit('setCalls', result.call_list.filter(function (item) {
+                  return item.contact_number == phoneNumber;
+                }));
+
+              case 14:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
       }))();
     }
   }
@@ -1314,7 +1393,7 @@ var RPC_ID = 1000000;
                 return dispatch('rpc', {
                   endpoint: '/web/dataset/call_kw/res.partner/read',
                   params: {
-                    "args": [[id], ["same_vat_partner_id", "partner_gid", "additional_info", "meeting_count", "opportunity_count", "is_published", "avatar_128", "image_1920", "__last_update", "is_company", "commercial_partner_id", "active", "country_code", "company_type", "name", "parent_id", "company_name", "type", "street", "street2", "city", "state_id", "zip", "country_id", "vat", "function", "phone_blacklisted", "mobile_blacklisted", "phone", "mobile", "phone_sanitized", "user_ids", "is_blacklisted", "email", "website", "title", "active_lang_count", "lang", "category_id", "child_ids", "user_id", "team_id", "ref", "company_id", "website_id", "industry_id", "comment", "message_follower_ids", "activity_ids", "message_ids", "display_name"]],
+                    "args": [[id], ["same_vat_partner_id", "partner_gid", "additional_info", "meeting_count", "opportunity_count", "avatar_128", "image_1920", "__last_update", "is_company", "commercial_partner_id", "active", "country_code", "company_type", "name", "parent_id", "company_name", "type", "street", "street2", "city", "state_id", "zip", "country_id", "vat", "function", "phone_blacklisted", "mobile_blacklisted", "phone", "mobile", "phone_sanitized", "user_ids", "is_blacklisted", "email", "title", "active_lang_count", "lang", "comment", "message_follower_ids", "display_name"]],
                     "model": "res.partner",
                     "method": "read",
                     "kwargs": {
@@ -1326,9 +1405,6 @@ var RPC_ID = 1000000;
                         "allowed_company_ids": action.context.allowed_company_ids,
                         "params": {
                           "id": id,
-                          // "cids": action.context.params.cids,
-                          // "menu_id": action.context.params.menu_id,
-                          // "action": action.context.params.action,
                           "model": "res.partner",
                           "view_type": "form"
                         },
@@ -1340,8 +1416,13 @@ var RPC_ID = 1000000;
 
               case 5:
                 data = _context2.sent;
+
                 // console.log(data)
-                commit('setPartner', data.result[0]);
+                if (data.result && data.result.length) {
+                  commit('setPartner', data.result[0]);
+                } else {
+                  console.log('[JUMO] No partner found', data);
+                }
 
               case 7:
               case "end":
@@ -1376,9 +1457,6 @@ var RPC_ID = 1000000;
                       "uid": action.context.uid,
                       "allowed_company_ids": action.context.allowed_company_ids,
                       "params": {
-                        // "cids": action.context.params.cids,
-                        // "menu_id": action.context.params.menu_id,
-                        // "action": action.context.params.action,
                         "model": "res.partner",
                         "view_type": "kanban"
                       },
@@ -1502,19 +1580,23 @@ if (!window.jumoApp) {
 
 /***/ }),
 
-/***/ "8f9e":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "92f7":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_3ecac866_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5007");
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_3ecac866_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_3ecac866_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "9d7b":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_ee0cc3ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c24d");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_ee0cc3ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_ee0cc3ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
 
@@ -1556,6 +1638,13 @@ if (!window.jumoApp) {
 
 /***/ }),
 
+/***/ "c24d":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "caca":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1567,17 +1656,6 @@ if (!window.jumoApp) {
 /***/ (function(module) {
 
 module.exports = JSON.parse("[{\"id\":177,\"body\":\"<p>1111111⛅️</p>\",\"date\":\"2022-01-31 09:06:20\",\"author_id\":[3,\"YourCompany, Mitchell Admin\"],\"email_from\":\"\\\"Mitchell Admin\\\" <admin@email.test>\",\"message_type\":\"comment\",\"subtype_id\":[2,\"Note\"],\"subject\":false,\"model\":\"res.partner\",\"res_id\":18,\"record_name\":\"Deco Addict, Douglas Fletcher\",\"partner_ids\":[],\"starred_partner_ids\":[3],\"notifications\":[],\"attachment_ids\":[{\"checksum\":\"358ccaaa5aa6bf654d901933655d27aeadfed2c0\",\"id\":409,\"filename\":\"mug.png\",\"name\":\"mug.png\",\"mimetype\":\"image/png\",\"res_id\":18,\"res_model\":\"res.partner\",\"is_main\":true}],\"tracking_value_ids\":[],\"messageReactionGroups\":[[\"insert-and-replace\",[]]],\"needaction_partner_ids\":[],\"history_partner_ids\":[],\"is_note\":true,\"is_discussion\":false,\"subtype_description\":false,\"is_notification\":false,\"module_icon\":\"/base/static/description/icon.png\",\"sms_ids\":[]},{\"id\":170,\"body\":\"<p>sdfsdfsdf</p>\",\"date\":\"2022-01-26 04:52:48\",\"author_id\":[3,\"YourCompany, Mitchell Admin\"],\"email_from\":\"\\\"Mitchell Admin\\\" <admin@email.test>\",\"message_type\":\"comment\",\"subtype_id\":[2,\"Note\"],\"subject\":false,\"model\":\"res.partner\",\"res_id\":18,\"record_name\":\"Deco Addict, Douglas Fletcher\",\"partner_ids\":[],\"starred_partner_ids\":[],\"notifications\":[],\"attachment_ids\":[],\"tracking_value_ids\":[],\"messageReactionGroups\":[[\"insert-and-replace\",[{\"messageId\":170,\"content\":\"🍺\",\"count\":1,\"partners\":[[\"insert-and-replace\",[{\"id\":3,\"name\":\"Mitchell Admin\"}]]],\"guests\":[[\"insert-and-replace\",[]]]}]]],\"needaction_partner_ids\":[],\"history_partner_ids\":[],\"is_note\":true,\"is_discussion\":false,\"subtype_description\":false,\"is_notification\":false,\"module_icon\":\"/base/static/description/icon.png\",\"sms_ids\":[]},{\"id\":169,\"body\":\"<p>Piaou</p>\",\"date\":\"2022-01-25 09:44:44\",\"author_id\":[3,\"YourCompany, Mitchell Admin\"],\"email_from\":\"\\\"Mitchell Admin\\\" <admin@email.test>\",\"message_type\":\"comment\",\"subtype_id\":[1,\"Discussions\"],\"subject\":\"Re: Deco Addict, Douglas Fletcher\",\"model\":\"res.partner\",\"res_id\":18,\"record_name\":\"Deco Addict, Douglas Fletcher\",\"partner_ids\":[18],\"starred_partner_ids\":[],\"notifications\":[{\"id\":20,\"notification_type\":\"email\",\"notification_status\":\"exception\",\"failure_type\":\"mail_smtp\",\"res_partner_id\":[18,\"Deco Addict, Douglas Fletcher\"]}],\"attachment_ids\":[],\"tracking_value_ids\":[],\"messageReactionGroups\":[[\"insert-and-replace\",[]]],\"needaction_partner_ids\":[],\"history_partner_ids\":[18],\"is_note\":false,\"is_discussion\":true,\"subtype_description\":false,\"is_notification\":false,\"module_icon\":\"/base/static/description/icon.png\",\"sms_ids\":[]}]");
-
-/***/ }),
-
-/***/ "d9c9":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_60cc3361_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8f9e");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_60cc3361_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsFeed_vue_vue_type_style_index_0_id_60cc3361_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
 
 /***/ }),
 

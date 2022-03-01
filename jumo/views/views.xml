@@ -26,13 +26,5 @@
                 </data>
             </field>
         </record>
-
-        <menuitem name="Jumo Page"
-            id="jumo.menu_root_jumo"
-            action="action_jumo"
-            web_icon="jumo,static/icon.png"
-            groups="base.group_user"
-            sequence="5"
-        />
     </data>
 </odoo>

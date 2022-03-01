@@ -230,31 +230,3 @@ const JumoMain = AbstractAction.extend({
 import { action_registry } from 'web.core';
 
 action_registry.add('jumo.widgets.main', JumoMain);
-
-(function () {
-    function monitorContact() {
-        console.log('[J] monitor')
-        const meetingButton = document.querySelector('button[name="schedule_meeting"]')
-        if (meetingButton) {
-            const hasButton = document.querySelector('button[name="jumo_show"]')
-            if (!hasButton) {
-                const newButton = document.createElement('button')
-                newButton.name = "jumo_show"
-                newButton.className = "btn oe_stat_button"
-                newButton.innerHTML = `<i class="fa fa-fw o_button_icon fa-phone-office text-danger"></i>
-                <div class="o_stat_info">
-                    <span class="o_stat_text">Show<br>Calls</span>
-                </div>`
-                newButton.onclick = () => {
-                    window.jumoContext = {
-                        id: 13
-                    }
-                    location.href = '/web#cids=1&menu_id=207&action=262'
-                }
-                meetingButton.parentNode.insertBefore(newButton, meetingButton)
-            }
-        }
-    }
-
-    //setInterval(monitorContact, 1000)
-})()
