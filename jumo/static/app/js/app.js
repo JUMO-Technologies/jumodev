@@ -1178,7 +1178,7 @@ var es_array_filter = __webpack_require__("4de4");
     setConfig: function setConfig(state, _ref) {
       var token = _ref.token,
           endpoint = _ref.endpoint;
-      state.endpoint = endpoint.replace(/\/$/, '');
+      state.endpoint = endpoint && endpoint.replace(/\/$/, '');
       state.token = token;
 
       if (!token) {
