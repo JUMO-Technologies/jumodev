@@ -7,7 +7,7 @@ class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
     jumo_ringover_token = fields.Char(string='API token for Ringover', config_parameter='jumo.jumo_ringover_token')
-    jumo_ringover_endpoint = fields.Char(string='API endpoint for Ringover', config_parameter='jumo.ringover_endpoint', default='https://public-api.ringover.com/v2/calls')
+    jumo_ringover_endpoint = fields.Char(string='API endpoint for Ringover', config_parameter='jumo.ringover_endpoint', default='https://public-api.ringover.com/')
 
     # @api.model
     # def get_values(self):
