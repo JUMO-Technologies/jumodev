@@ -10,6 +10,7 @@
         'views/templates.xml',
         'views/settings.xml'
     ],
+    'version': '15.0.0',
     'assets': {
         'web.assets_backend': [
             'jumo/static/src/js/jumo.js'
