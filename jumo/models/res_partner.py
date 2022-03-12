@@ -10,6 +10,10 @@ class Partner(models.Model):
     _name = 'res.partner'
     _inherit = 'res.partner'
 
+    country_code = fields.Char(
+        related='country_id.code', string="Country Code")
+
+
     def show_calls(self):
         self.ensure_one()
         action = self.env["ir.actions.actions"]._for_xml_id("jumo.action_jumo")

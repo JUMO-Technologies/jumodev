@@ -6,17 +6,13 @@
     'installable': True,
     'application': True,
     'data': [
+        'views/widget_templates.xml',
         'views/views.xml',
         'views/templates.xml',
         'views/settings.xml'
     ],
-    'version': '15.0.0',
-    'assets': {
-        'web.assets_backend': [
-            'jumo/static/src/js/jumo.js'
-        ],
-        'web.assets_qweb': [
-            'jumo/static/src/xml/*.xml'
-        ],
-    }
+    'version': '14.0.0',
+    'qweb': [
+            'static/src/xml/jumo_main.xml',
+    ],
 }
