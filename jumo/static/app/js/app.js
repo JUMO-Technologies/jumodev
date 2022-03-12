@@ -1261,12 +1261,24 @@ var es_array_filter = __webpack_require__("4de4");
                     'Authorization': state.token
                   },
                   redirect: 'follow'
+                }).catch((error) => {
+                  _context2.next = 14;
+                  // console.log(error);
+                  console.log("Fetch call fail (7).");
                 });
 
               case 9:
                 response = _context2.sent;
-                _context2.next = 12;
-                return response.json();
+
+                if (response.status == 200) {
+                  _context2.next = 12;
+                  return response.json();
+                }
+                else {
+                  _context2.next = 14;
+                  console.log("Fetch call fail (9).");
+                  return {};
+                }
 
               case 12:
                 result = _context2.sent;

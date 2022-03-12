@@ -4,6 +4,7 @@
 import AbstractAction from 'web.AbstractAction';
 import { getMessagingComponent } from "@mail/utils/messaging_component";
 import { ComponentWrapper } from 'web.OwlCompatibility';
+import { action_registry } from 'web.core';
 
 class JumoChatterContainerWrapperComponent extends ComponentWrapper {}
 
@@ -226,7 +227,5 @@ const JumoMain = AbstractAction.extend({
         document.body.appendChild(s1)
     }
 });
-
-import { action_registry } from 'web.core';
 
 action_registry.add('jumo.widgets.main', JumoMain);
